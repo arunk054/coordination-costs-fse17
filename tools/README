@@ -1,0 +1,11 @@
+Steps to generate the Dataset:
+
+Step 1: Generate the Repo Dataset using "CreateReposDataset.py"
+
+Step 2: Generate Issue Dataset using "CreateIssueDataset.py"
+
+Step 3: Classify Issues into External and Internal using "ClassifyExternal.py" 
+
+Step 4: Generate Final Dataset by combining datasets generated using Step 1 to Step 3. Use to generate final dataset for PyPi and use to generate the final dataset for R
+
+You can now use the datasets generated using Step 4 in our models available under "../../scripts"
